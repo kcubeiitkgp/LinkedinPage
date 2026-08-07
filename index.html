@@ -208,6 +208,30 @@
         width:100%;
         text-align:center;
       }
+
+      .mentorship-links{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  margin-top:18px;
+}
+
+.mentorship-links a{
+  display:block;
+  padding:12px 14px;
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:12px;
+  background:rgba(255,255,255,.05);
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+  transition:.2s;
+}
+
+.mentorship-links a:hover{
+  background:rgba(255,255,255,.10);
+  border-color:rgba(255,255,255,.22);
+}
     }
   </style>
 </head>
@@ -253,8 +277,6 @@
     </section>
 <section class="cards">
 
-  <h2 class="section-title">For Early Career Professionals</h2>
-
   <a
     class="card"
     href="https://docs.google.com/forms/d/e/1FAIpQLSfPXIh35TT3TA9E6GY2yW5APoLoI9bR6eaOOnzVG6r3AKAL2w/viewform"
@@ -267,33 +289,28 @@
     </p>
   </a>
 
-  <a
-    class="card"
-    href="https://topmate.io/kaustubh_kcube/1604781"
-    target="_blank"
-    style="text-decoration:none;color:white;"
-  >
-    <h3>1:1 Mentorship for Working Professionals</h3>
+  <div class="card">
+    <h3>1:1 Mentorship</h3>
     <p>
-      Career strategy, job switching, resume reviews, interview preparation,
-      salary negotiation, finance, data science, and analytics.
+      Personalized mentorship tailored to your current stage.
     </p>
-  </a>
 
-  <h2 class="section-title">For Students & Freshers</h2>
+    <div class="mentorship-links">
+      <a
+        href="https://topmate.io/kaustubh_kcube/1604781"
+        target="_blank"
+      >
+        👨‍💼 Working Professionals
+      </a>
 
-  <a
-    class="card"
-    href="https://topmate.io/kaustubh_kcube/1237927"
-    target="_blank"
-    style="text-decoration:none;color:white;"
-  >
-    <h3>1:1 Mentorship for Students & Freshers</h3>
-    <p>
-      Placements, internships, resume reviews, interview preparation,
-      career guidance, data science, and analytics.
-    </p>
-  </a>
+      <a
+        href="https://topmate.io/kaustubh_kcube/1237927"
+        target="_blank"
+      >
+        🎓 Students & Freshers
+      </a>
+    </div>
+  </div>
 
   <a
     class="card"
